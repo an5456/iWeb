@@ -16,7 +16,7 @@ public class CategoryDAOImpl implements CategoryDAO {
 
         Category category1 = new Category();
         category1.setCid(1);
-        category1.setCname("北京菜123");
+        category1.setCname("北京菜");
 
         Category category2 = new Category();
         category2.setCid(2);
@@ -31,7 +31,7 @@ public class CategoryDAOImpl implements CategoryDAO {
     public List<Category> getCategoriesById(int cid) {
         Category category1 = new Category();
         category1.setCid(1);
-        category1.setCname("北京菜123");
+        category1.setCname("北京菜");
 
         Category category2 = new Category();
         category2.setCid(2);
@@ -51,7 +51,7 @@ public class CategoryDAOImpl implements CategoryDAO {
     public Category getCategoryById(int cid) {
         Category category1 = new Category();
         category1.setCid(1);
-        category1.setCname("北京菜123");
+        category1.setCname("北京菜");
 
         Category category2 = new Category();
         category2.setCid(2);
