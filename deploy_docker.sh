@@ -4,6 +4,7 @@
 . ~/.bash_profile
 export PROJ_PATH=/root/.jenkins/workspace/iWeb_script
 cd $PROJ_PATH
+echo '打包'
 mvn clean install
 
 #准备ROOT.war包
