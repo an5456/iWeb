@@ -2,7 +2,7 @@
 
 . /etc/profile
 . ~/.bash_profile
-
+export PROJ_PATH=/root/.jenkins/workspace/iWeb_script
 cd $PROJ_PATH
 mvn clean install
 
